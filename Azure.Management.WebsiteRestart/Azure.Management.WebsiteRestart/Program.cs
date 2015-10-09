@@ -7,7 +7,7 @@ using Microsoft.WindowsAzure.Management.WebSites.Models;
 using Microsoft.WindowsAzure.Management.Compute;
 using Microsoft.WindowsAzure.Management.Compute.Models;
 
-namespace Gilgamesh.Azure.Management.iisreset
+namespace Azure.Management.WebsiteRestart
 {
     class Program
     {
