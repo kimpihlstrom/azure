@@ -21,7 +21,7 @@ namespace Gilgamesh.Azure.Management.iisreset
             RestartAllWebApps(cred);
 
             if(System.Diagnostics.Debugger.IsAttached)
-            {
+            { 
                 Console.WriteLine("Press anykey to exit");
                 Console.Read();
             }
