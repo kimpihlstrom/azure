@@ -14,6 +14,7 @@ Export-PfxCertificate -FilePath C:\certificate.pfx -Password $MyPwd -Cert $Azure
 
 ```
 * Next upload the .cer file to Azure and edit the command line program so it can find the .pfx file. See https://azure.microsoft.com/en-us/blog/getting-started-with-the-azure-java-management-libraries/ for more details.
+* Obtain the the subscription id from your Azure account. See e.g. http://blogs.msdn.com/b/mschray/archive/2015/05/13/getting-your-azure-guid-subscription-id.aspx for details.
 
 ## References
 This code is based around work presented in this blog posting http://www.bradygaster.com/post/managing-web-sites-from-web-sites-using-the-windows-azure-management-libraries-for-net
